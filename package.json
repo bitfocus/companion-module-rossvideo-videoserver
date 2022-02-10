@@ -1,0 +1,32 @@
+{
+	"name": "rossvideo-videoserver",
+	"version": "1.0.0",
+	"api_version": "1.0.0",
+	"keywords": [
+		"mira",
+		"tria",
+		"kiva",
+		"video",
+		"server"
+	],
+	"manufacturer": "Ross Video",
+	"product": [
+		"Video Server"
+	],
+	"shortname": "rossvideo-videoserver",
+	"description": "Companion module for Ross Video Mira, Tria, and Kiva video servers",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Joseph Adams <josephdadams@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/bitfocus/companion-module-rossvideo-videoserver#readme",
+	"bugs": {
+		"url": "https://github.com/bitfocus/companion-module-rossvideo-videoserver/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-rossvideo-videoserver.git"
+	}
+}
