@@ -210,6 +210,9 @@ instance.prototype.init_feedbacks = function (system) {
 // ##########################
 // #### Instance Actions ####
 // ##########################
+instance.prototype.sendCommand = function(str) {
+	actions.sendCommand(this, str);
+}
 instance.prototype.actions = function (system) {
 	this.setActions(actions.setActions(this));
 }
